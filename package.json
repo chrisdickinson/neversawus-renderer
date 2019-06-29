@@ -16,6 +16,7 @@
   "author": "Chris Dickinson <chris@neversaw.us> (http://neversaw.us/)",
   "license": "MIT",
   "dependencies": {
+    "@iarna/toml": "^2.2.3",
     "aws-sdk": "^2.485.0",
     "remark": "^10.0.1",
     "remark-highlight.js": "^5.1.1",
