@@ -13,6 +13,7 @@ module.exports = async () => {
 
   return {
     entry: './lib/index.js',
+    target: 'node',
     output: {
       library: '',
       libraryTarget: 'commonjs',
