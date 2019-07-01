@@ -12,7 +12,9 @@
     "posttest": "npm run lint",
     "bundle": "webpack .",
     "prezip": "npm run bundle",
-    "zip": "./create-zip.js"
+    "zip": "./create-zip.js",
+    "preupload": "npm run zip",
+    "upload": "aws s3 cp ./dist/renderer.zip s3://cloudflare-workers/renderer.zip"
   },
   "keywords": [],
   "author": "Chris Dickinson <chris@neversaw.us> (http://neversaw.us/)",
